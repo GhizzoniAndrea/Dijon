@@ -23,6 +23,10 @@
     android:launchMode="singleTop"
     android:exported="true"
     android:theme="@android:style/Theme.NoDisplay" />
+<activity-alias
+    android:name=".wxapi.WXPayEntryActivity"
+    android:exported="true"
+    android:targetActivity="com.eaglet.wechatpay.sdk.WeChatPayCallbackActivity" />
 ```
 
 ## 3. 添加混淆规则
