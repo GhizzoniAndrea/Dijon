@@ -26,7 +26,7 @@
 <activity-alias
     android:name=".wxapi.WXPayEntryActivity"
     android:exported="true"
-    android:targetActivity="com.eaglet.wechatpay.sdk.WeChatPayCallbackActivity" />
+    android:targetActivity="com.shangxiazuoyou.wechatpaysdk.WeChatPayCallbackActivity" />
 ```
 
 ## 3. 添加混淆规则
